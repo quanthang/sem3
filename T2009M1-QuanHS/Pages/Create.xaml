@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="T2009M1_QuanHS.Pages.Create"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T2009M1_QuanHS.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Add Contact" Margin="20 20 0 10" 
+                       FontSize="20" FontWeight="Bold"/>
+        <NavigationViewItemSeparator/>
+        <TextBox x:Name="txtName" Header="Name" Width="250" Margin="10 0 10 0"/>
+        <TextBox x:Name="txtPhone" Header="PhoneNumber" Width="250" Margin="10 20 10 0"/>
+        <Button Content="Add Contact" Width="250" Margin="10 20 10 30" Click="Button_Click"/>
+    </StackPanel>
+</Page>
